@@ -45,7 +45,7 @@ void fractional_knapsack(int w[], int p[], int c, int size)
 int main()
 {
   int p[] = {10, 5, 15, 7, 6, 18, 3};
-  int w[] = {2, 3, 5, 7, 1, 14, 1};
+  int w[] = {2, 3, 5, 7, 9, 14, 1};
   int capacity = 15;
   int size = sizeof(p) / sizeof(p[0]);
   fractional_knapsack(w, p, capacity, size);
